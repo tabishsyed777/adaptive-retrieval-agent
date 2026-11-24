@@ -1,0 +1,206 @@
+[
+  {
+    "q": "Find artifact retention for basic",
+    "a": "30 days",
+    "ids": [
+      "base-0"
+    ]
+  },
+  {
+    "q": "Find build archives for plus",
+    "a": "90 days",
+    "ids": [
+      "pro-0"
+    ]
+  },
+  {
+    "q": "Compare artifact retention across tiers",
+    "a": "basic: 30 days | plus: 90 days",
+    "ids": [
+      "base-0",
+      "pro-0"
+    ]
+  },
+  {
+    "q": "Find archives build for basic",
+    "a": "30 days",
+    "ids": [
+      "base-0"
+    ]
+  },
+  {
+    "q": "Find artifact retention for enterprise",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Find upload limit for basic",
+    "a": "8 MB",
+    "ids": [
+      "base-1"
+    ]
+  },
+  {
+    "q": "Find attachment capacity for plus",
+    "a": "16 MB",
+    "ids": [
+      "pro-1"
+    ]
+  },
+  {
+    "q": "Compare upload limit across tiers",
+    "a": "basic: 8 MB | plus: 16 MB",
+    "ids": [
+      "base-1",
+      "pro-1"
+    ]
+  },
+  {
+    "q": "Find capacity attachment for basic",
+    "a": "8 MB",
+    "ids": [
+      "base-1"
+    ]
+  },
+  {
+    "q": "Find upload limit for enterprise",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Find review window for basic",
+    "a": "3 days",
+    "ids": [
+      "base-2"
+    ]
+  },
+  {
+    "q": "Find approval period for plus",
+    "a": "5 days",
+    "ids": [
+      "pro-2"
+    ]
+  },
+  {
+    "q": "Compare review window across tiers",
+    "a": "basic: 3 days | plus: 5 days",
+    "ids": [
+      "base-2",
+      "pro-2"
+    ]
+  },
+  {
+    "q": "Find period approval for basic",
+    "a": "3 days",
+    "ids": [
+      "base-2"
+    ]
+  },
+  {
+    "q": "Find review window for enterprise",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Find job timeout for basic",
+    "a": "60 seconds",
+    "ids": [
+      "base-3"
+    ]
+  },
+  {
+    "q": "Find worker runtime for plus",
+    "a": "120 seconds",
+    "ids": [
+      "pro-3"
+    ]
+  },
+  {
+    "q": "Compare job timeout across tiers",
+    "a": "basic: 60 seconds | plus: 120 seconds",
+    "ids": [
+      "base-3",
+      "pro-3"
+    ]
+  },
+  {
+    "q": "Find runtime worker for basic",
+    "a": "60 seconds",
+    "ids": [
+      "base-3"
+    ]
+  },
+  {
+    "q": "Find job timeout for enterprise",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Find cache lifetime for basic",
+    "a": "6 hours",
+    "ids": [
+      "base-4"
+    ]
+  },
+  {
+    "q": "Find cached entries for plus",
+    "a": "12 hours",
+    "ids": [
+      "pro-4"
+    ]
+  },
+  {
+    "q": "Compare cache lifetime across tiers",
+    "a": "basic: 6 hours | plus: 12 hours",
+    "ids": [
+      "base-4",
+      "pro-4"
+    ]
+  },
+  {
+    "q": "Find entries cached for basic",
+    "a": "6 hours",
+    "ids": [
+      "base-4"
+    ]
+  },
+  {
+    "q": "Find cache lifetime for enterprise",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Find queue capacity for basic",
+    "a": "100 jobs",
+    "ids": [
+      "base-5"
+    ]
+  },
+  {
+    "q": "Find pending tasks for plus",
+    "a": "200 jobs",
+    "ids": [
+      "pro-5"
+    ]
+  },
+  {
+    "q": "Compare queue capacity across tiers",
+    "a": "basic: 100 jobs | plus: 200 jobs",
+    "ids": [
+      "base-5",
+      "pro-5"
+    ]
+  },
+  {
+    "q": "Find tasks pending for basic",
+    "a": "100 jobs",
+    "ids": [
+      "base-5"
+    ]
+  },
+  {
+    "q": "Find queue capacity for enterprise",
+    "a": null,
+    "ids": []
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "base-0",
+    "source": "source.json#/0",
+    "title": "artifact retention",
+    "keywords": "build archives",
+    "tier": "basic",
+    "value": "30 days"
+  },
+  {
+    "id": "pro-0",
+    "source": "source.json#/1",
+    "title": "artifact retention",
+    "keywords": "build archives",
+    "tier": "plus",
+    "value": "90 days"
+  },
+  {
+    "id": "base-1",
+    "source": "source.json#/2",
+    "title": "upload limit",
+    "keywords": "attachment capacity",
+    "tier": "basic",
+    "value": "8 MB"
+  },
+  {
+    "id": "pro-1",
+    "source": "source.json#/3",
+    "title": "upload limit",
+    "keywords": "attachment capacity",
+    "tier": "plus",
+    "value": "16 MB"
+  },
+  {
+    "id": "base-2",
+    "source": "source.json#/4",
+    "title": "review window",
+    "keywords": "approval period",
+    "tier": "basic",
+    "value": "3 days"
+  },
+  {
+    "id": "pro-2",
+    "source": "source.json#/5",
+    "title": "review window",
+    "keywords": "approval period",
+    "tier": "plus",
+    "value": "5 days"
+  },
+  {
+    "id": "base-3",
+    "source": "source.json#/6",
+    "title": "job timeout",
+    "keywords": "worker runtime",
+    "tier": "basic",
+    "value": "60 seconds"
+  },
+  {
+    "id": "pro-3",
+    "source": "source.json#/7",
+    "title": "job timeout",
+    "keywords": "worker runtime",
+    "tier": "plus",
+    "value": "120 seconds"
+  },
+  {
+    "id": "base-4",
+    "source": "source.json#/8",
+    "title": "cache lifetime",
+    "keywords": "cached entries",
+    "tier": "basic",
+    "value": "6 hours"
+  },
+  {
+    "id": "pro-4",
+    "source": "source.json#/9",
+    "title": "cache lifetime",
+    "keywords": "cached entries",
+    "tier": "plus",
+    "value": "12 hours"
+  },
+  {
+    "id": "base-5",
+    "source": "source.json#/10",
+    "title": "queue capacity",
+    "keywords": "pending tasks",
+    "tier": "basic",
+    "value": "100 jobs"
+  },
+  {
+    "id": "pro-5",
+    "source": "source.json#/11",
+    "title": "queue capacity",
+    "keywords": "pending tasks",
+    "tier": "plus",
+    "value": "200 jobs"
+  }
+]

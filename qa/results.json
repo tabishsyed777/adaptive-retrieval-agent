@@ -1,0 +1,368 @@
+{
+  "automated_gates_pass": true,
+  "metrics": {
+    "cases": 30,
+    "answer_accuracy": 1,
+    "citation_exact": 1,
+    "recall_at_5": 1.0,
+    "grounded_answer_exact": 1,
+    "refusal": 1,
+    "concurrent_accuracy": 1,
+    "p50_ms": 2.911568000058651,
+    "p95_ms": 10.59938699995655,
+    "records": 12,
+    "source_bytes": 2042,
+    "concurrent_readers": 50,
+    "golden_sha256": "94d8a816c2f6a38fe49940c73a275cedc19bbf10535187f64d6d920f5a6a0678"
+  },
+  "observations": [
+    {
+      "question": "Find artifact retention for basic",
+      "status": "answered",
+      "answer": "30 days",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-0",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Find build archives for plus",
+      "status": "answered",
+      "answer": "90 days",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-0",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "Compare artifact retention across tiers",
+      "status": "answered",
+      "answer": "basic: 30 days | plus: 90 days",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-0",
+          "source": "source.json#/0"
+        },
+        {
+          "id": "pro-0",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "Find archives build for basic",
+      "status": "answered",
+      "answer": "30 days",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-0",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "Find artifact retention for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Find upload limit for basic",
+      "status": "answered",
+      "answer": "8 MB",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-1",
+          "source": "source.json#/2"
+        }
+      ]
+    },
+    {
+      "question": "Find attachment capacity for plus",
+      "status": "answered",
+      "answer": "16 MB",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-1",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Compare upload limit across tiers",
+      "status": "answered",
+      "answer": "basic: 8 MB | plus: 16 MB",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-1",
+          "source": "source.json#/2"
+        },
+        {
+          "id": "pro-1",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Find capacity attachment for basic",
+      "status": "answered",
+      "answer": "8 MB",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-1",
+          "source": "source.json#/2"
+        }
+      ]
+    },
+    {
+      "question": "Find upload limit for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Find review window for basic",
+      "status": "answered",
+      "answer": "3 days",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-2",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "Find approval period for plus",
+      "status": "answered",
+      "answer": "5 days",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-2",
+          "source": "source.json#/5"
+        }
+      ]
+    },
+    {
+      "question": "Compare review window across tiers",
+      "status": "answered",
+      "answer": "basic: 3 days | plus: 5 days",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-2",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "pro-2",
+          "source": "source.json#/5"
+        }
+      ]
+    },
+    {
+      "question": "Find period approval for basic",
+      "status": "answered",
+      "answer": "3 days",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-2",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "Find review window for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Find job timeout for basic",
+      "status": "answered",
+      "answer": "60 seconds",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-3",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Find worker runtime for plus",
+      "status": "answered",
+      "answer": "120 seconds",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-3",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "Compare job timeout across tiers",
+      "status": "answered",
+      "answer": "basic: 60 seconds | plus: 120 seconds",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-3",
+          "source": "source.json#/6"
+        },
+        {
+          "id": "pro-3",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "Find runtime worker for basic",
+      "status": "answered",
+      "answer": "60 seconds",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-3",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "Find job timeout for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Find cache lifetime for basic",
+      "status": "answered",
+      "answer": "6 hours",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-4",
+          "source": "source.json#/8"
+        }
+      ]
+    },
+    {
+      "question": "Find cached entries for plus",
+      "status": "answered",
+      "answer": "12 hours",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-4",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Compare cache lifetime across tiers",
+      "status": "answered",
+      "answer": "basic: 6 hours | plus: 12 hours",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-4",
+          "source": "source.json#/8"
+        },
+        {
+          "id": "pro-4",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Find entries cached for basic",
+      "status": "answered",
+      "answer": "6 hours",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-4",
+          "source": "source.json#/8"
+        }
+      ]
+    },
+    {
+      "question": "Find cache lifetime for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Find queue capacity for basic",
+      "status": "answered",
+      "answer": "100 jobs",
+      "method": "exact title",
+      "citations": [
+        {
+          "id": "base-5",
+          "source": "source.json#/10"
+        }
+      ]
+    },
+    {
+      "question": "Find pending tasks for plus",
+      "status": "answered",
+      "answer": "200 jobs",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "pro-5",
+          "source": "source.json#/11"
+        }
+      ]
+    },
+    {
+      "question": "Compare queue capacity across tiers",
+      "status": "answered",
+      "answer": "basic: 100 jobs | plus: 200 jobs",
+      "method": "decompose by tier: exact title, exact title",
+      "citations": [
+        {
+          "id": "base-5",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "pro-5",
+          "source": "source.json#/11"
+        }
+      ]
+    },
+    {
+      "question": "Find tasks pending for basic",
+      "status": "answered",
+      "answer": "100 jobs",
+      "method": "lexical fallback",
+      "citations": [
+        {
+          "id": "base-5",
+          "source": "source.json#/10"
+        }
+      ]
+    },
+    {
+      "question": "Find queue capacity for enterprise",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    }
+  ]
+}
